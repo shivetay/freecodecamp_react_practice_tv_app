@@ -1,3 +1,7 @@
+This is search for other explenation of REACT. Based on freecodecamp yt
+https://www.youtube.com/watch?v=6Ied4aZxUzc
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
