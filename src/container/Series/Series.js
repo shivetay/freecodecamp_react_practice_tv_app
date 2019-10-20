@@ -1,6 +1,7 @@
 import React from 'react';
 import SeriesList from '../../components/SeriesList/SeriesList';
 import Loader from '../../components/Loader/Loader';
+import Intro from '../../components/Intro/Intro';
 
 
 class Series extends React.Component {
@@ -9,6 +10,7 @@ class Series extends React.Component {
     seriesName: '',
     isFetching: false
   }
+
  
   onSeriesInputChange = e => {
     this.setState({ seriesName: e.target.value, isFetching: true });
@@ -22,6 +24,7 @@ class Series extends React.Component {
     const { series, seriesName, isFetching} = this.state;
     return (
       <div>
+        <Intro message={"Find your tv series"}/>
         <div>
           <input value={seriesName} 
                 type="text" 

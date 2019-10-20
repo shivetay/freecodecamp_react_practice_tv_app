@@ -1,7 +1,6 @@
 import React from 'react';
+import Main from '../Main/Main';
 import './App.css';
-import Intro from '../Intro/Intro';
-import Series from '../../container/Series/Series';
 import 'whatwg-fetch';
 
 
@@ -13,8 +12,7 @@ class App extends React.Component {
         <header className="App-header">
           <h1>TV series List</h1>
         </header>
-        <Intro message={"Find your tv series"}/>
-        <Series />
+        <Main />
       </div>
   );
  }
